@@ -76,11 +76,11 @@ const Chatbot = () => {
   };
   return (
     <Box display="flex" flexDirection='column'
-     alignItems="center" justifyContent="center" >
+     alignItems="center" justifyContent="center" height='100vh'  >
 
       <Box width='80%' height='80vh' mt={7} 
       display="flex" flexDirection='column'
-       justifyContent="center" alignItems="center" border="2px solid black">
+       justifyContent="center" alignItems="center" border="2px solid purple">
         <Stack ref={scrollContainerRef} 
          direction="column" height="80%"
           sx={{overflowY: "auto", gap:1, m:1}}
