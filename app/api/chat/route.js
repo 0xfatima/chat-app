@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import Groq from "groq-sdk";
-const systemPrompt=''
+const systemPrompt='you are a travel and culture guide and tell user about every question they ask about travelling and culture of different countries. If you are asked about anything unrelated to travelling and culture, aplogize and tell the user that you cannot answer them that.'
 
 const client= new Groq({apiKey:process.env.GROQ_API_KEY})
 
